@@ -1,0 +1,73 @@
+.mainadminlogin
+{
+    background: url("/assets/images/BGIMG.jpeg") no-repeat center;
+    background-size:cover ;
+     height: 100vh;    
+}
+#container
+{
+    background-color: rgba(223, 132, 117, 0.322);
+    backdrop-filter: blur(15px);
+}
+.input
+{
+    color:white;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:black 2px solid;
+    outline: none;
+    background-color: transparent;
+    font-size: large;
+}
+input::placeholder
+{
+    color:black !important;
+    font-size: large;
+}
+.etypst
+{
+    position: relative;
+    color:rgb(41, 41, 41);
+}
+.etypst::before
+{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    border-radius: 80%;
+    left: 0;
+    translate: -150% -50%;
+    bottom: 0;
+    background-color: green;
+    /* Glowing effect */
+    box-shadow: 
+        0 0 1px green,
+        0 0 2px green,
+        0 0 4px green,
+        0 0 8px green;
+}
+.etypsf
+{
+    position: relative;
+    color:rgb(41, 41, 41);
+}
+.etypsf::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    border-radius: 50%;
+    left: 0;
+    translate: -150% -50%;
+    bottom: 0;
+    background-color: red;
+
+    /* Glowing effect */
+    box-shadow: 
+        0 0 1px  rgba(255, 0, 0, 0.475),
+        0 0 2px rgba(255, 0, 0, 0.475),
+        0 0 4px red,
+        0 0 8px red;
+}
