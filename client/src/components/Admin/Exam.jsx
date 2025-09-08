@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import "./Admin.css"
+import "./Admin.css"
 import { Link } from 'react-router-dom';
 const Exam = () => {
   const [temp, setTemp] = useState({

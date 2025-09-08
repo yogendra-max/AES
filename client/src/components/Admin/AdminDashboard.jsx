@@ -9,8 +9,13 @@ const AdminDashboard = () => {
         <Link to={"/admin/staff"}>
         <button>Staff</button>
         </Link>
+        <br /> <br />
         <Link to={"/admin/Exam"}>
         <button>Exam</button>
+        </Link>
+        <br /> <br />
+        <Link to={"/admin/subjects"}>
+        <button>Subjects Maping</button> 
         </Link>
     </div>
   )
